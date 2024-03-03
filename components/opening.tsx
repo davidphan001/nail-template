@@ -1,11 +1,10 @@
 "use client";
 import { useState, useEffect } from "react";
-import { prefix } from "../prefix";
 
 const images = [
-  "/images/image1.jpg",
-  "/images/image2.jpg",
-  "/images/image3.jpg",
+  "./images/image1.jpg",
+  "./images/image2.jpg",
+  "./images/image3.jpg",
 ];
 
 const Opening = () => {
@@ -24,7 +23,7 @@ const Opening = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0 z-0">
         <img
           className="w-full h-full object-cover object-center"
-          src={`${prefix}${images[currentImage]}`}
+          src={images[currentImage]}
           alt="Gallery Image"
         />
       </div>

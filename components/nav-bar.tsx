@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { prefix } from "../prefix";
 
 const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -35,7 +34,7 @@ const Navbar = () => {
             className="hover:text-gray-300 transition-colors duration-300"
           >
             <img
-              src={`${prefix}/images/logo.webp`}
+              src="./images/logo.webp"
               alt="logo"
               className="w-12 h-12 filter invert"
             />
