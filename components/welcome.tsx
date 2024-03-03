@@ -31,10 +31,10 @@ const WelcomeSection = () => {
             senses, enhance your style, and make you feel refreshed.
           </p>
           <p className="text-lg text-white mb-6">
-            Whether you're looking for a quick polish change, a relaxing spa
-            day, or a complete beauty makeover, Elegant Nails is your premier
-            destination. Join us for an unforgettable experience where beauty
-            meets relaxation and style meets wellness.
+            Whether you&apos;re looking for a quick polish change, a relaxing
+            spa day, or a complete beauty makeover, Elegant Nails is your
+            premier destination. Join us for an unforgettable experience where
+            beauty meets relaxation and style meets wellness.
           </p>
           <div className="text-center">
             <a
