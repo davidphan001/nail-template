@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import { prefix } from "../prefix";
 
 const images = [
   "/images/image1.jpg",
@@ -24,7 +24,7 @@ const Opening = () => {
       <div className="absolute top-0 left-0 right-0 bottom-0 z-0">
         <img
           className="w-full h-full object-cover object-center"
-          src={images[currentImage]}
+          src={`${prefix}${images[currentImage]}`}
           alt="Gallery Image"
         />
       </div>
